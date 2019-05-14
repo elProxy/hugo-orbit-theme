@@ -20,11 +20,10 @@ disable404 = true
 # Theme styles
 
     # The original template comes with 6 colour schemes. You may choose styles below.
-    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
-    # are available. Also the source LESS files are included so
-    # it’s quick and easy to change the styling and colour scheme.
+    # "orbit-1.css", "orbit-2.css", "orbit-3.css", "orbit-4.css", "orbit-5.css", "orbit-6.css"
+    # are available.
 
-    styles = "styles.css"
+    styles = "orbit-1.css"
 
 # Sidebar sections
 

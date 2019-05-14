@@ -4,8 +4,8 @@
 				{{ range .Site.Params.skills.list }}
                     <div class="item">
                         <h3 class="level-title">{{ .skill }}</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="{{ .level }}">
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar level-bar-inner" role="progressbar" style="width: {{ .level }}" aria-valuenow="{{ .level }}" aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div><!--//level-bar-->
                     </div><!--//item-->
