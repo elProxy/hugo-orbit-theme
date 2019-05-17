@@ -1,5 +1,5 @@
             <section class="section projects-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="{{ with .Site.Params.projects.iconStyle }}{{.}}{{else}}fas{{end}} {{ .Site.Params.projects.icon }}"></i></span>{{ with .Site.Params.projects.title }}{{.}}{{else}}{{ i18n "projects" }}{{end}}</h2>
+                <h2 class="section-title"><span class="icon-holder">{{ partial "fontawesome-icon.html" .Site.Params.projects }}</span>{{ with .Site.Params.projects.title }}{{.}}{{else}}{{ i18n "projects" }}{{end}}</h2>
                 <div class="intro">
                     <p>{{ with .Site.Params.projects.intro }}{{ . | markdownify }}{{ end }}</p>
                 </div><!--//intro-->

@@ -1,5 +1,5 @@
             <section class="section summary-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas {{ .Site.Params.summary.icon }}"></i></span>{{ i18n "summary" }}</h2>
+                <h2 class="section-title"><span class="icon-holder">{{ partial "fontawesome-icon.html" .Site.Params.summary }}</span>{{ i18n "summary" }}</h2>
                 <div class="summary">
                     <p>{{ with .Site.Params.summary.summary }}{{ . | markdownify }}{{ end }}</p>
                 </div><!--//summary-->

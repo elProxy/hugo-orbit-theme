@@ -1,5 +1,5 @@
             <section class="section experiences-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas {{ .Site.Params.experiences.icon }}"></i></span>{{ i18n "experiences" }}</h2>
+                <h2 class="section-title"><span class="icon-holder">{{ partial "fontawesome-icon.html" .Site.Params.experiences }}</span>{{ i18n "experiences" }}</h2>
 
 				{{ range .Site.Params.jobs.list }}
                 <div class="item">
